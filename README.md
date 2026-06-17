@@ -59,22 +59,14 @@ psql -d practica789 -f sql/05_consultas_finales_20.sql
 
 ## Modelo relacional
 
-![Modelo relacional](docs/modelo_relacional.png)
-
-## Diagrama EER
-
-![Diagrama EER](docs/eer_sistema_universitario.png)
-
 <a>
-<img width="1448" height="1086" alt="eer_sistema_universitario" src="https://github.com/user-attachments/assets/67ed284e-af1a-4a1a-80de-87e1536cc0e3" />
+<img width="800" height="650" alt="eer_sistema_universitario" src="https://github.com/user-attachments/assets/67ed284e-af1a-4a1a-80de-87e1536cc0e3" />
 
 </a>
 
-## Diagramas
+## Diagrama EER
 
-- El archivo `docs/eer_sistema_universitario.png` contiene el diagrama Entidad-Relación Extendido en notación clásica con entidades, atributos, relaciones y cardinalidades.
-- El archivo `docs/modelo_relacional.png` puede reemplazarse por la imagen exportada desde pgAdmin después de ejecutar `sql/01_schema.sql`.
-- Las instrucciones para generar el diagrama relacional están en `docs/INSTRUCCIONES_DIAGRAMA_RELACIONAL_PGADMIN.md`.
+<img width="500" height="600" alt="relacionnal" src="https://github.com/user-attachments/assets/f5e26a8b-415e-469c-9403-5f3dba81914e" />
 
 ## Entregable principal
 
