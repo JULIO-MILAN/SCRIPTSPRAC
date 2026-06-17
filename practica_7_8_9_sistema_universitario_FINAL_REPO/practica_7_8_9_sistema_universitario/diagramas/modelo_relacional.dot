@@ -1,0 +1,25 @@
+
+digraph MR {
+  graph [rankdir=TB, bgcolor="white"];
+  node [shape=box, fontname="DejaVu Sans", fontsize=10, style="rounded,filled", fillcolor="#FFFFFF"];
+  edge [fontname="DejaVu Sans", fontsize=9];
+  Departamento [label="departamento(id_departamento PK, nombre, edificio, telefono)"];
+  Carrera [label="carrera(id_carrera PK, nombre, nivel, creditos_totales, id_departamento FK)"];
+  Profesor [label="profesor(id_profesor PK, nombre, correo, grado, salario, id_departamento FK, id_supervisor FK)"];
+  Estudiante [label="estudiante(id_estudiante PK, nombre, correo, edad, semestre, promedio, id_carrera FK, id_tutor FK)"];
+  Curso [label="curso(id_curso PK, nombre, creditos, tipo, area, id_departamento FK)"];
+  Aula [label="aula(id_aula PK, clave, edificio, capacidad, tipo, tiene_proyector)"];
+  Grupo [label="grupo(id_grupo PK, id_curso FK, id_profesor FK, id_aula FK, periodo, cupo, horario)"];
+  Inscripcion [label="inscripcion(id_inscripcion PK, id_estudiante FK, id_grupo FK, fecha, calificacion, estado)"];
+  Departamento -> Carrera;
+  Departamento -> Profesor;
+  Departamento -> Curso;
+  Carrera -> Estudiante;
+  Profesor -> Estudiante [style=dashed];
+  Profesor -> Profesor [style=dashed];
+  Curso -> Grupo;
+  Profesor -> Grupo;
+  Aula -> Grupo;
+  Estudiante -> Inscripcion;
+  Grupo -> Inscripcion;
+}
