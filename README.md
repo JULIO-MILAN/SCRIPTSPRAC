@@ -1,15 +1,6 @@
 
 # Prácticas 7, 8 y 9 - Operaciones del Álgebra Relacional
 
-## Datos generales
-
-**Dominio:** Sistema universitario
-**Integrante:** Julio Adrian Milan Huidobro
-**Unidad de aprendizaje:** Bases de Datos
-**Programa académico:** Ingeniería en Sistemas Computacionales
-**Institución:** Instituto Politécnico Nacional - Escuela Superior de Cómputo
-
----
 
 ## Descripción del proyecto
 
