@@ -65,6 +65,10 @@ psql -d practica789 -f sql/05_consultas_finales_20.sql
 
 ![Diagrama EER](docs/eer_sistema_universitario.png)
 
+<a>
+<img width="1448" height="1086" alt="eer_sistema_universitario" src="https://github.com/user-attachments/assets/67ed284e-af1a-4a1a-80de-87e1536cc0e3" />
+
+</a>
 
 ## Diagramas
 
