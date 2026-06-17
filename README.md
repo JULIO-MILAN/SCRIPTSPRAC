@@ -76,7 +76,8 @@ Estas tablas se encuentran relacionadas mediante claves primarias y claves forá
 
 El diagrama Entidad-Relación Extendido muestra las entidades, atributos, relaciones y cardinalidades del sistema universitario.
 
-![Diagrama EER](diagramas/eer_sistema_universitario.png)
+<img width="1448" height="1086" alt="eer_sistema_universitario" src="https://github.com/user-attachments/assets/145f29f0-e712-4791-b55e-97f7ab3c3597" />
+
 
 ---
 
@@ -84,7 +85,8 @@ El diagrama Entidad-Relación Extendido muestra las entidades, atributos, relaci
 
 El modelo relacional representa la estructura final de la base de datos, incluyendo tablas, claves primarias y claves foráneas.
 
-![Modelo relacional](diagramas/modelo_relacional.png)
+<img width="954" height="1298" alt="relacionnal" src="https://github.com/user-attachments/assets/4397a4d4-4622-4652-b7b4-242cdae401f4" />
+
 
 ---
 
